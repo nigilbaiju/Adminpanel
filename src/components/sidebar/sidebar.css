@@ -1,0 +1,40 @@
+.sidebar{
+    flex: 1;
+    height: calc(100vh -50px);
+    background-color: bisque;
+    position: sticky;
+    top:50px;
+}
+.sidebarwrapper
+{
+    padding: 20px;
+    color: #555;
+}
+.sidebarmenu
+{
+    margin-bottom: 25px;
+}
+.sidebartitle
+{
+    font-size: 15px;
+    color: brown;
+}
+.sidebarlist
+{
+    list-style: none;
+    padding: 10px;
+}
+.sidebarlistitem
+{
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 10%;
+}
+.sidebarlistitem.active,
+.sidebarlistitem.hover
+{
+background-color: rgb(214, 243, 185);
+}
+
